@@ -2,20 +2,31 @@
 # Telegram DoS Bot
 
 ## Descrição
-Este é um bot para o Telegram projetado para realizar **testes de segurança** (pentest) em sistemas controlados. Ele simula um ataque DoS (Denial of Service) e permite a personalização do tipo de ataque, número de requisições, threads, uso de agentes falsos, e mais. O bot foi criado com a ajuda de **inteligência artificial** para facilitar o desenvolvimento e otimizar a lógica do ataque.
 
-⚠️ **Importante**: O uso deste bot em sistemas sem permissão é **ilegal** e pode acarretar em punições legais. Use **apenas** em ambientes onde você tem permissão explícita para realizar testes de segurança.
+Este **Telegram DoS Bot** foi criado para fins de **pentest** e **testes de segurança** em **ambientes controlados**. Ele realiza **ataques reais de DoS** (Denial of Service) com o objetivo de testar a robustez de sistemas e servidores. **O uso não autorizado é ilegal** e pode ser punido conforme a legislação brasileira. O bot só deve ser usado em ambientes para os quais você tenha permissão explícita para realizar testes de segurança.
+
+**Importante:** O bot foi desenvolvido com o auxílio de I.A. e é open-source. 
 
 ## Funcionalidades
-- **Ataque DoS**: Realiza um ataque de negação de serviço simulando múltiplas requisições.
-- **Customização de Ataque**: Defina o **IP ou URL** de um alvo, o **tipo de requisição** (GET ou POST), número de **requisições**, **threads** e até se deseja usar **usuários falsos** para ocultar a origem do ataque.
-- **Duração do Ataque**: O bot permite definir a duração do ataque (padrão de 60 segundos) e fornece um relatório ao final do processo.
-- **Feedback do Ataque**: O bot retorna um feedback do status do alvo após o ataque.
 
-## Funcionalidades Detalhadas
-1. **Início do Ataque**: Ao rodar o bot, o usuário é guiado a fornecer o IP ou URL do alvo.
-2. **Configurações**: O bot permite configurar o número de requisições, tipo de requisição (GET/POST), número de threads e se usuários falsos devem ser usados.
-3. **Resultado do Ataque**: Após o tempo de ataque, o bot retorna uma taxa de sucesso e um aviso se o alvo pode estar offline.
+- **Escolha do Alvo**: O bot solicita ao usuário o **IP ou URL** do alvo.
+- **Requisições**: O número de **requisições** a ser enviado pode ser ajustado conforme a necessidade do ataque.
+- **Tipo de Requisição**: O bot oferece a opção de enviar **requisições GET** ou **POST**.
+- **Threads**: O número de **threads** pode ser ajustado para aumentar a intensidade do ataque.
+- **Usuários Falsos**: O bot pode enviar requisições com **usuários falsos** (User-Agent headers) para dificultar o rastreamento da origem.
+- **Duração do Ataque**: O tempo de execução do ataque pode ser definido.
+
+**Atenção**: O bot realiza **ataques reais** e pode impactar o desempenho do servidor alvo, causando **interrupções**.
 
 ## Licença
-Este projeto está licenciado sob a **Apache License 2.0**. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+
+Este projeto está sob a **Apache License 2.0**, o que permite o uso, modificação e distribuição do código, desde que sejam mantidas as condições de atribuição e os direitos de propriedade.
+
+## Aviso Legal
+
+⚠️ **Uso não autorizado** de sistemas pode ser considerado **crime** segundo a legislação brasileira. A utilização do bot é **permitida apenas em ambientes controlados** e com **permissão explícita** do proprietário do servidor.
+
+---
+
+Desenvolvido por: spikeBebopdev.
+
