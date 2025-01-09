@@ -1,5 +1,6 @@
 
 # Telegram DoS Bot
+![<](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHMf1ZvpzD_GbJVYSGZ4FE3HiFaBNg_fRW3fnvBoZMwdVD73Yoo2ZeCxZC&s=10)
 
 ## Descrição
 
@@ -27,6 +28,6 @@ Este projeto está sob a **Apache License 2.0**, o que permite o uso, modificaç
 ⚠️ **Uso não autorizado** de sistemas pode ser considerado **crime** segundo a legislação brasileira. A utilização do bot é **permitida apenas em ambientes controlados** e com **permissão explícita** do proprietário do servidor.
 
 ---
-
-Desenvolvido por: spikeBebopdev.
+![>](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBYBCMAPmUHqgkmRP9Lzn2oW91hINEVVR7jg&usqp=CAU)
+**Desenvolvido por: spikeBebopdev.**
 
